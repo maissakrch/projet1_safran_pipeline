@@ -1,1 +1,7 @@
 # Projet-1-Pipeline-Data-Industriel-Safran-
+
+📌 Contexte du projet — Pipeline de Données Industrielles (Safran Data Systems)
+Dans le cadre des activités de Safran Data Systems, de nombreux équipements avioniques sont soumis à des campagnes de tests intensives. Ces tests génèrent en continu des données issues de différents capteurs (température, vibration, pression, tension, etc.). Ces données proviennent de sources hétérogènes : API internes, fichiers CSV exportés depuis les bancs de tests, bases SQL utilisées par les équipes d’ingénierie, ainsi que des volumes importants de fichiers bruts assimilables à une source “big data”.
+Aujourd’hui, ces données sont dispersées, non harmonisées et parfois difficiles à exploiter rapidement. Cette fragmentation complique les analyses, ralentit les diagnostics et limite la capacité des équipes à produire des indicateurs fiables pour le suivi qualité.
+L’objectif de ce projet est de concevoir et développer un pipeline de données automatisé permettant de centraliser, nettoyer, normaliser et stocker l’ensemble de ces informations dans une base de données structurée. Le pipeline doit également mettre à disposition un accès unifié aux données via une API REST, afin de faciliter leur exploitation par les équipes data, qualité et ingénierie.
+Ce projet s’inscrit dans une logique d’industrialisation des flux de données et répond aux besoins de fiabilité, de traçabilité et de pérennité des traitements, essentiels dans un environnement industriel exigeant comme celui de Safran.
