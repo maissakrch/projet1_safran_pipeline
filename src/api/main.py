@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 import sqlite3
 import pandas as pd
+from logger import log
+
 
 app = FastAPI(title="Safran Data Pipeline API")
 

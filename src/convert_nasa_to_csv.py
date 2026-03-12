@@ -1,4 +1,6 @@
 import pandas as pd
+from logger import log
+
 
 def load_nasa_file(path):
     # Colonnes NASA (21 capteurs + settings)

@@ -1,5 +1,7 @@
 import sqlite3
 import pandas as pd
+from logger import log
+
 
 df = pd.read_csv("data/raw/train_FD001.csv")
 

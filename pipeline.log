@@ -1,0 +1,8 @@
+[2026-03-12 12:19:58] 🚀 Démarrage du pipeline complet
+[2026-03-12 12:19:58] ▶️ Étape 1 : Collecte des données
+[2026-03-12 12:19:59] ✔️ Collecte terminée
+[2026-03-12 12:19:59] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-03-12 12:20:00] ✔️ Agrégation terminée
+[2026-03-12 12:20:00] ▶️ Étape 3 : Import dans la base finale
+[2026-03-12 12:20:01] ✔️ Import SQL terminé
+[2026-03-12 12:20:01] 🎉 Pipeline terminé avec succès
