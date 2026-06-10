@@ -71,7 +71,7 @@ def get_all_mesures(
     api_key: str = Depends(verify_api_key)
 ):
     log(f"📊 GET /mesures — limit={limit}")
-    df = query_db(f"SELECT * FROM mesures LIMIT {limit}")
+    df = query_db(f"SELECT * FROM mesures WHERE unit IS NOT NULL LIMIT {limit}")
     return df.to_dict(orient="records")
 
 @app.get(
