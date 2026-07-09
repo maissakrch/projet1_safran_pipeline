@@ -1,7 +1,11 @@
 import sqlite3
 import pandas as pd
-from logger import log
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+import pandas as pd
+from logger import log
 
 DB_PATH = "data/final.db"
 CSV_PATH = "data/processed/final_clean_data.csv"

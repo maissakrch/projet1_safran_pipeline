@@ -62,20 +62,26 @@ def collect_from_sql():
     return df_sql
 
 # ---------------------------------------------------------
-# 4. Collecte depuis une source "big data" simulée
+# 4. Collecte depuis une source "big data" — traitement par lots (chunking)
 # ---------------------------------------------------------
 
 def collect_from_bigdata():
-    log("📦 Collecte depuis source big data NASA...")
+    log("📦 Collecte depuis source big data NASA (lecture par chunks)...")
     big_files = glob(os.path.join(BIGDATA_DIR, "*.csv"))
 
     if not big_files:
         log("⚠️ Aucun fichier big data trouvé.")
         return pd.DataFrame()
 
-    df_list = [pd.read_csv(f) for f in big_files]
-    df_big = pd.concat(df_list, ignore_index=True)
-    log(f"✔️ Big Data : {len(df_big)} lignes récupérées")
+    CHUNK_SIZE = 5000  # traitement par lots pour ne jamais charger tout le fichier d'un coup
+    chunks = []
+    for f in big_files:
+        for chunk in pd.read_csv(f, chunksize=CHUNK_SIZE):
+            chunks.append(chunk)
+        log(f"✔️ {f} : lu en {len(chunks)} lots de {CHUNK_SIZE} lignes max")
+
+    df_big = pd.concat(chunks, ignore_index=True)
+    log(f"✔️ Big Data : {len(df_big)} lignes récupérées (via lecture par chunks)")
     return df_big
 
 # ---------------------------------------------------------

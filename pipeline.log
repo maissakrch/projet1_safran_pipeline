@@ -32,3 +32,242 @@
 [2026-05-28 13:39:38] ✔️ Scraping : 9 lignes récupérées
 [2026-05-28 13:39:38] 💾 Données sauvegardées dans data/processed/
 [2026-05-28 13:39:38] 🎉 Collecte terminée.
+[2026-05-28 13:51:17] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-05-28 13:51:17] 📡 Collecte depuis API REST...
+[2026-05-28 13:51:17] ✔️ API : 100 lignes récupérées
+[2026-05-28 13:51:17] 📁 Collecte depuis fichiers CSV NASA...
+[2026-05-28 13:51:17] ✔️ CSV : 61893 lignes récupérées
+[2026-05-28 13:51:17] 🗄️ Collecte depuis base SQL NASA...
+[2026-05-28 13:51:17] ✔️ SQL : 20631 lignes récupérées
+[2026-05-28 13:51:17] 📦 Collecte depuis source big data NASA...
+[2026-05-28 13:51:17] ✔️ Big Data : 41262 lignes récupérées
+[2026-05-28 13:51:17] 🌐 Collecte depuis scraping Wikipedia...
+[2026-05-28 13:51:17] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-05-28 13:51:17] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-05-28 13:51:17] ✔️ Scraping : 9 lignes récupérées
+[2026-05-28 13:51:18] 💾 Données sauvegardées dans data/processed/
+[2026-05-28 13:51:18] 🎉 Collecte terminée.
+[2026-05-28 14:04:01] 📊 GET /mesures — limit=100
+[2026-05-28 14:04:41] 📊 GET /stats
+[2026-05-28 14:05:18] 🚀 Démarrage du pipeline complet
+[2026-05-28 14:05:18] ▶️ Étape 1 : Collecte des données
+[2026-05-28 14:05:19] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-05-28 14:05:19] 📡 Collecte depuis API REST...
+[2026-05-28 14:05:19] ✔️ API : 100 lignes récupérées
+[2026-05-28 14:05:19] 📁 Collecte depuis fichiers CSV NASA...
+[2026-05-28 14:05:19] ✔️ CSV : 61893 lignes récupérées
+[2026-05-28 14:05:19] 🗄️ Collecte depuis base SQL NASA...
+[2026-05-28 14:05:19] ✔️ SQL : 20631 lignes récupérées
+[2026-05-28 14:05:19] 📦 Collecte depuis source big data NASA...
+[2026-05-28 14:05:19] ✔️ Big Data : 41262 lignes récupérées
+[2026-05-28 14:05:19] 🌐 Collecte depuis scraping Wikipedia...
+[2026-05-28 14:05:19] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-05-28 14:05:19] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-05-28 14:05:19] ✔️ Scraping : 9 lignes récupérées
+[2026-05-28 14:05:20] 💾 Données sauvegardées dans data/processed/
+[2026-05-28 14:05:20] 🎉 Collecte terminée.
+[2026-05-28 14:05:20] ✔️ Collecte terminée
+[2026-05-28 14:05:20] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-05-28 14:05:21] ✔️ Agrégation terminée
+[2026-05-28 14:05:21] ▶️ Étape 3 : Import dans la base finale
+[2026-05-28 14:05:22] ✔️ Import SQL terminé
+[2026-05-28 14:05:22] 🎉 Pipeline terminé avec succès
+[2026-06-10 16:30:47] 📊 GET /stats
+[2026-06-10 16:31:26] 📊 GET /mesures — limit=100
+[2026-06-10 16:36:39] 🚀 Démarrage du pipeline complet
+[2026-06-10 16:36:39] ▶️ Étape 1 : Collecte des données
+[2026-06-10 16:36:40] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-06-10 16:36:40] 📡 Collecte depuis API REST...
+[2026-06-10 16:36:40] ✔️ API : 100 lignes récupérées
+[2026-06-10 16:36:40] 📁 Collecte depuis fichiers CSV NASA...
+[2026-06-10 16:36:40] ✔️ CSV : 61893 lignes récupérées
+[2026-06-10 16:36:40] 🗄️ Collecte depuis base SQL NASA...
+[2026-06-10 16:36:40] ✔️ SQL : 20631 lignes récupérées
+[2026-06-10 16:36:40] 📦 Collecte depuis source big data NASA...
+[2026-06-10 16:36:40] ✔️ Big Data : 41262 lignes récupérées
+[2026-06-10 16:36:40] 🌐 Collecte depuis scraping Wikipedia...
+[2026-06-10 16:36:40] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-06-10 16:36:40] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-06-10 16:36:40] ✔️ Scraping : 9 lignes récupérées
+[2026-06-10 16:36:41] 💾 Données sauvegardées dans data/processed/
+[2026-06-10 16:36:41] 🎉 Collecte terminée.
+[2026-06-10 16:36:41] ✔️ Collecte terminée
+[2026-06-10 16:36:41] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-06-10 16:36:42] ✔️ Agrégation terminée
+[2026-06-10 16:36:42] ▶️ Étape 3 : Import dans la base finale
+[2026-06-10 16:36:43] ✔️ Import SQL terminé
+[2026-06-10 16:36:43] 🎉 Pipeline terminé avec succès
+[2026-06-10 16:37:21] 📊 GET /mesures — limit=100
+[2026-06-10 16:37:27] 📊 GET /mesures — limit=100
+[2026-06-10 16:38:04] ✔️ Ping API
+[2026-06-10 16:38:04] ✔️ Ping API
+[2026-06-10 16:38:28] ❌ Tentative d'accès non autorisé à l'API
+[2026-06-10 16:39:07] 📊 GET /mesures — limit=100
+[2026-06-10 16:41:56] 📊 GET /mesures — limit=100
+[2026-07-03 13:33:44] 🚀 Démarrage du pipeline complet
+[2026-07-03 13:33:44] ▶️ Étape 1 : Collecte des données
+[2026-07-03 13:33:44] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-03 13:33:44] 📡 Collecte depuis API REST...
+[2026-07-03 13:33:45] ✔️ API : 100 lignes récupérées
+[2026-07-03 13:33:45] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-03 13:33:45] ✔️ CSV : 61893 lignes récupérées
+[2026-07-03 13:33:45] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-03 13:33:45] ✔️ SQL : 20631 lignes récupérées
+[2026-07-03 13:33:45] 📦 Collecte depuis source big data NASA...
+[2026-07-03 13:33:45] ✔️ Big Data : 41262 lignes récupérées
+[2026-07-03 13:33:45] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-03 13:33:45] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-03 13:33:45] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-03 13:33:45] ✔️ Scraping : 9 lignes récupérées
+[2026-07-03 13:33:46] 💾 Données sauvegardées dans data/processed/
+[2026-07-03 13:33:46] 🎉 Collecte terminée.
+[2026-07-03 13:33:46] ✔️ Collecte terminée
+[2026-07-03 13:33:46] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-03 13:33:47] ✔️ Agrégation terminée
+[2026-07-03 13:33:47] ▶️ Étape 3 : Import dans la base finale
+[2026-07-03 13:33:48] ✔️ Import SQL terminé
+[2026-07-03 13:33:48] 🎉 Pipeline terminé avec succès
+[2026-07-03 13:53:02] 🚀 Démarrage du pipeline complet
+[2026-07-03 13:53:02] ▶️ Étape 1 : Collecte des données
+[2026-07-03 13:53:02] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-03 13:53:02] 📡 Collecte depuis API REST...
+[2026-07-03 13:53:02] ✔️ API : 100 lignes récupérées
+[2026-07-03 13:53:02] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-03 13:53:02] ✔️ CSV : 61893 lignes récupérées
+[2026-07-03 13:53:02] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-03 13:53:02] ✔️ SQL : 20631 lignes récupérées
+[2026-07-03 13:53:02] 📦 Collecte depuis source big data NASA (lecture par chunks)...
+[2026-07-03 13:53:02] ✔️ data/raw/bigdata/big2.csv : lu en 5 lots de 5000 lignes max
+[2026-07-03 13:53:02] ✔️ data/raw/bigdata/big1.csv : lu en 10 lots de 5000 lignes max
+[2026-07-03 13:53:02] ✔️ Big Data : 41262 lignes récupérées (via lecture par chunks)
+[2026-07-03 13:53:02] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-03 13:53:02] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-03 13:53:03] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-03 13:53:03] ✔️ Scraping : 9 lignes récupérées
+[2026-07-03 13:53:03] 💾 Données sauvegardées dans data/processed/
+[2026-07-03 13:53:03] 🎉 Collecte terminée.
+[2026-07-03 13:53:03] ✔️ Collecte terminée
+[2026-07-03 13:53:03] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-03 13:53:05] ✔️ Agrégation terminée
+[2026-07-03 13:53:05] ▶️ Étape 3 : Import dans la base finale
+[2026-07-03 13:53:05] ✔️ Import SQL terminé
+[2026-07-03 13:53:05] 🎉 Pipeline terminé avec succès
+[2026-07-03 14:08:47] ✔️ Ping API
+[2026-07-04 13:00:57] 🚀 Démarrage du pipeline complet
+[2026-07-04 13:00:57] ▶️ Étape 1 : Collecte des données
+[2026-07-04 13:00:58] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-04 13:00:58] 📡 Collecte depuis API REST...
+[2026-07-04 13:00:58] ✔️ API : 100 lignes récupérées
+[2026-07-04 13:00:58] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-04 13:00:58] ✔️ CSV : 61893 lignes récupérées
+[2026-07-04 13:00:58] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-04 13:00:58] ✔️ SQL : 20631 lignes récupérées
+[2026-07-04 13:00:58] 📦 Collecte depuis source big data NASA (lecture par chunks)...
+[2026-07-04 13:00:58] ✔️ data/raw/bigdata/big2.csv : lu en 5 lots de 5000 lignes max
+[2026-07-04 13:00:58] ✔️ data/raw/bigdata/big1.csv : lu en 10 lots de 5000 lignes max
+[2026-07-04 13:00:58] ✔️ Big Data : 41262 lignes récupérées (via lecture par chunks)
+[2026-07-04 13:00:58] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-04 13:00:58] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-04 13:00:58] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-04 13:00:58] ✔️ Scraping : 9 lignes récupérées
+[2026-07-04 13:00:59] 💾 Données sauvegardées dans data/processed/
+[2026-07-04 13:00:59] 🎉 Collecte terminée.
+[2026-07-04 13:00:59] ✔️ Collecte terminée
+[2026-07-04 13:00:59] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-04 13:01:00] ✔️ Agrégation terminée
+[2026-07-04 13:01:00] ▶️ Étape 3 : Import dans la base finale
+[2026-07-04 13:01:01] ✔️ Import SQL terminé
+[2026-07-04 13:01:01] 🎉 Pipeline terminé avec succès
+[2026-07-04 13:52:12] ✔️ Ping API
+[2026-07-04 13:53:40] 📊 GET /mesures — limit=50
+[2026-07-04 13:54:36] 📊 GET /mesures/50
+[2026-07-04 13:55:34] 📊 GET /stats
+[2026-07-05 14:12:14] 🚀 Démarrage du pipeline complet
+[2026-07-05 14:12:14] ▶️ Étape 1 : Collecte des données
+[2026-07-05 14:12:15] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-05 14:12:15] 📡 Collecte depuis API REST...
+[2026-07-05 14:12:15] ✔️ API : 100 lignes récupérées
+[2026-07-05 14:12:15] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-05 14:12:15] ✔️ CSV : 61893 lignes récupérées
+[2026-07-05 14:12:15] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-05 14:12:15] ✔️ SQL : 20631 lignes récupérées
+[2026-07-05 14:12:15] 📦 Collecte depuis source big data NASA (lecture par chunks)...
+[2026-07-05 14:12:15] ✔️ data/raw/bigdata/big2.csv : lu en 5 lots de 5000 lignes max
+[2026-07-05 14:12:15] ✔️ data/raw/bigdata/big1.csv : lu en 10 lots de 5000 lignes max
+[2026-07-05 14:12:15] ✔️ Big Data : 41262 lignes récupérées (via lecture par chunks)
+[2026-07-05 14:12:15] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-05 14:12:15] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-05 14:12:15] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-05 14:12:15] ✔️ Scraping : 9 lignes récupérées
+[2026-07-05 14:12:16] 💾 Données sauvegardées dans data/processed/
+[2026-07-05 14:12:16] 🎉 Collecte terminée.
+[2026-07-05 14:12:16] ✔️ Collecte terminée
+[2026-07-05 14:12:16] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-05 14:12:17] ✔️ Agrégation terminée
+[2026-07-05 14:12:17] ▶️ Étape 3 : Import dans la base finale
+[2026-07-05 14:12:18] ✔️ Import SQL terminé
+[2026-07-05 14:12:18] 🎉 Pipeline terminé avec succès
+[2026-07-05 14:17:39] ✔️ Ping API
+[2026-07-05 14:17:40] ✔️ Ping API
+[2026-07-05 14:20:26] ✔️ Ping API
+[2026-07-05 14:20:42] 📊 GET /mesures — limit=30
+[2026-07-05 14:21:02] 📊 GET /mesures/2
+[2026-07-06 22:50:45] 🚀 Démarrage du pipeline complet
+[2026-07-06 22:50:45] ▶️ Étape 1 : Collecte des données
+[2026-07-06 22:50:45] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-06 22:50:45] 📡 Collecte depuis API REST...
+[2026-07-06 22:50:45] ✔️ API : 100 lignes récupérées
+[2026-07-06 22:50:45] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-06 22:50:45] ✔️ CSV : 61893 lignes récupérées
+[2026-07-06 22:50:45] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-06 22:50:45] ✔️ SQL : 20631 lignes récupérées
+[2026-07-06 22:50:45] 📦 Collecte depuis source big data NASA (lecture par chunks)...
+[2026-07-06 22:50:45] ✔️ data/raw/bigdata/big2.csv : lu en 5 lots de 5000 lignes max
+[2026-07-06 22:50:45] ✔️ data/raw/bigdata/big1.csv : lu en 10 lots de 5000 lignes max
+[2026-07-06 22:50:45] ✔️ Big Data : 41262 lignes récupérées (via lecture par chunks)
+[2026-07-06 22:50:45] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-06 22:50:45] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-06 22:50:46] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-06 22:50:46] ✔️ Scraping : 9 lignes récupérées
+[2026-07-06 22:50:46] 💾 Données sauvegardées dans data/processed/
+[2026-07-06 22:50:46] 🎉 Collecte terminée.
+[2026-07-06 22:50:46] ✔️ Collecte terminée
+[2026-07-06 22:50:46] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-06 22:50:47] ✔️ Agrégation terminée
+[2026-07-06 22:50:47] ▶️ Étape 3 : Import dans la base finale
+[2026-07-06 22:50:48] ✔️ Import SQL terminé
+[2026-07-06 22:50:48] 🎉 Pipeline terminé avec succès
+[2026-07-06 22:51:48] ✔️ Ping API
+[2026-07-06 22:52:01] 📊 GET /mesures — limit=200
+[2026-07-06 22:52:46] 📊 GET /mesures/3
+[2026-07-06 22:53:22] 📊 GET /stats
+[2026-07-09 20:47:09] 🚀 Démarrage du pipeline complet
+[2026-07-09 20:47:09] ▶️ Étape 1 : Collecte des données
+[2026-07-09 20:47:10] 🚀 DÉMARRAGE DE LA COLLECTE MULTI-SOURCES NASA
+[2026-07-09 20:47:10] 📡 Collecte depuis API REST...
+[2026-07-09 20:47:10] ✔️ API : 100 lignes récupérées
+[2026-07-09 20:47:10] 📁 Collecte depuis fichiers CSV NASA...
+[2026-07-09 20:47:10] ✔️ CSV : 61893 lignes récupérées
+[2026-07-09 20:47:10] 🗄️ Collecte depuis base SQL NASA...
+[2026-07-09 20:47:10] ✔️ SQL : 20631 lignes récupérées
+[2026-07-09 20:47:10] 📦 Collecte depuis source big data NASA (lecture par chunks)...
+[2026-07-09 20:47:10] ✔️ data/raw/bigdata/big2.csv : lu en 5 lots de 5000 lignes max
+[2026-07-09 20:47:10] ✔️ data/raw/bigdata/big1.csv : lu en 10 lots de 5000 lignes max
+[2026-07-09 20:47:10] ✔️ Big Data : 41262 lignes récupérées (via lecture par chunks)
+[2026-07-09 20:47:10] 🌐 Collecte depuis scraping Wikipedia...
+[2026-07-09 20:47:10] 🌐 Scraping Wikipedia — moteurs aéro...
+[2026-07-09 20:47:11] ✔️ Scraping terminé : 9 lignes récupérées
+[2026-07-09 20:47:11] ✔️ Scraping : 9 lignes récupérées
+[2026-07-09 20:47:11] 💾 Données sauvegardées dans data/processed/
+[2026-07-09 20:47:11] 🎉 Collecte terminée.
+[2026-07-09 20:47:11] ✔️ Collecte terminée
+[2026-07-09 20:47:11] ▶️ Étape 2 : Agrégation & nettoyage
+[2026-07-09 20:47:13] ✔️ Agrégation terminée
+[2026-07-09 20:47:13] ▶️ Étape 3 : Import dans la base finale
+[2026-07-09 20:47:14] ✔️ Import SQL terminé
+[2026-07-09 20:47:14] 🎉 Pipeline terminé avec succès
+[2026-07-09 20:47:39] ✔️ Ping API
+[2026-07-09 20:47:50] ❌ Tentative d'accès non autorisé à l'API
+[2026-07-09 20:48:10] 📊 GET /mesures — limit=100
+[2026-07-09 20:48:59] 📊 GET /mesures/3
+[2026-07-09 20:49:30] 📊 GET /stats
